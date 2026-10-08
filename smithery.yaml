@@ -1,0 +1,21 @@
+name: typeforge-mcp
+displayName: TypeForge - Autonomous JSON-to-Zod, TypeScript Interfaces & Type Safety MCP
+description: Universal TypeScript interfaces, Zod schema validation & runtime type safety engine for Cursor, Claude Code & Windsurf. Converts messy raw JSON into strict TypeScript types, generates Zod schemas with email/uuid/coercion rules, Python Pydantic v2 models, and safe runtime type guards.
+category: developer-tools
+homepage: https://github.com/AmyGraphics/typeforge-mcp
+repository: https://github.com/AmyGraphics/typeforge-mcp
+icon: https://raw.githubusercontent.com/AmyGraphics/typeforge-mcp/main/icon.png
+keywords:
+  - typescript
+  - zod
+  - type-safety
+  - pydantic
+  - json-to-ts
+  - type-guards
+  - runtime-validation
+  - cursor
+  - claude
+  - windsurf
+startCommand:
+  type: http
+  url: https://typeforge-api.agentweb-hub.workers.dev/mcp
