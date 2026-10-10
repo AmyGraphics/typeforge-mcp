@@ -13,6 +13,10 @@ Universal Autonomous JSON-to-Zod, TypeScript Interfaces, Pydantic & Type Safety 
 `https://typeforge-api.agentweb-hub.workers.dev/mcp`
 
 
+## 🔴 NEW in v1.1 — Real JSON Type Inference
+
+`infer_types_from_json` parses **your actual JSON** (not a template) and generates matching nested TypeScript interfaces, a Zod schema, a Pydantic v2 model and a JSON Schema — with smart detection of UUIDs, emails, ISO datetimes, URLs, int-vs-float, nullable fields and array element types. Deterministic local computation on your real payload.
+
 ## 💰 Pricing
 
 **Start free — 10 requests/day, no signup, no card.** Upgrade only if it earns a place in your workflow.
